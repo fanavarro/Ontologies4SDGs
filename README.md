@@ -4,7 +4,7 @@ Innovative Teaching Project based on TeachSDGs.org (http://www.teachsdgs.org/) I
 
 Academic year 2022-23
 
-Courses:
+Symbolic AI Participant Courses:
 
 * IA301 Institut Polytechnique Paris
 
