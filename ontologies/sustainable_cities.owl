@@ -1,0 +1,2795 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alicia/ontologies/2020/9/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/alicia/ontologies/2020/9/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innnovation score (given by Innovation Cities™ Index) &gt; 47</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAgeDependancyRatio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAgeDependancyRatio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of working age population &gt; 80%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAirPollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAirPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution"/>
+        <rdfs:comment>has less than 20 µg/m^3 of pollution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACarbonFootPrintPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACarbonFootPrintPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average carbon emission per capita (in tonnes) &lt; 6.5</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSMA Mobile Connectivity Index &gt; 74</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACrimeRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACrimeRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate"/>
+        <rdfs:comment>has on average less than 1 intentional homicide per 100 000 habitants per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality"/>
+        <rdfs:comment>has on average less than 0.01% of deaths that are caused by unsafe water</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AEnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AEnergyConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP"/>
+        <rdfs:comment>has less than 0.057 PPP$ per kg of oil equivalent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AEnergyConsumptionPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AEnergyConsumptionPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita"/>
+        <rdfs:comment>has less than 543 kg of oil equivalent per capita per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDP (PPP) per capita &gt; 57000</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AHousingAndLivingCosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AHousingAndLivingCosts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts"/>
+        <rdfs:comment>has a value less than 80% for the living+rent estimator compared to Prague</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy"/>
+        <rdfs:comment>has more than 99% of the population that can read at the age of 15</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of trade and transport related infrastructures (on a scale from 1 to 5, worldbank) &gt; 4</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity"/>
+        <rdfs:comment>has less than 7% of the population which is obese</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#APrimarySchoolEnrollment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#APrimarySchoolEnrollment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment"/>
+        <rdfs:comment>Corresponds to a primary school enrollment over 98%.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ARecyclingRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ARecyclingRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of waste recycled and composted &gt; 50%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ATrafficCongestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ATrafficCongestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of congestion &lt; 15%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AUnemploymentRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AUnemploymentRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unemployment rate &lt; 2% (of the active population)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#B-Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#B-Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innnovation score (given by Innovation Cities™ Index) &gt; 41</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAgeDependancyRatio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAgeDependancyRatio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of working age population &gt; 61%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAirPollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAirPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution"/>
+        <rdfs:comment>has less than 30 µg/m^3 of pollution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCarbonFootPrintPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCarbonFootPrintPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average carbon emission per capita (in tonnes) &gt; 6.5</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BConnectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BConnectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSMA Mobile Connectivity Index &gt; 58</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCrimeRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCrimeRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate"/>
+        <rdfs:comment>has on average less than 2.20 intentional homicide per 100 000 habitants per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BDrinkingWaterQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BDrinkingWaterQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality"/>
+        <rdfs:comment>has on average less than 0.24% of deaths that are caused by unsafe water</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP"/>
+        <rdfs:comment>has less than 0.086 PPP$ per kg of oil equivalent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumptionPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumptionPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita"/>
+        <rdfs:comment>has less than 1353 kg of oil equivalent per capita per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BGDPperCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BGDPperCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDP (PPP) per capita &gt; 44000</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BHousingAndLivingCosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BHousingAndLivingCosts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts"/>
+        <rdfs:comment>has a value more than 80% for the living+rent estimator compared to Prague</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLitteracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLitteracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy"/>
+        <rdfs:comment>has more than 94% of the population that can read at the age of 15</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLogisticPerformanceIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLogisticPerformanceIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of trade and transport related infrastructures (on a scale from 1 to 5, worldbank) &gt; 3</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BObesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BObesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity"/>
+        <rdfs:comment>has less than 17% of the population which is obese</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BPrimarySchoolEnrollment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BPrimarySchoolEnrollment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment"/>
+        <rdfs:comment>Corresponds to a primary school enrollment over 95%.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of waste recycled and composted &gt; 40%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BTrafficCongestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BTrafficCongestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of congestion &lt; 25%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BUnemploymentRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BUnemploymentRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unemployment rate &lt; 4% (of the active population)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Beijing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Beijing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#China"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DPrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ERecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#C-Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#C-Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innnovation score (given by Innovation Cities™ Index) &gt; 38</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAgeDependancyRatio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAgeDependancyRatio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of working age population &gt; 54%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAirPollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAirPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution"/>
+        <rdfs:comment>has less than 50 µg/m^3 of pollution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCarbonFootPrintPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCarbonFootPrintPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average carbon emission per capita (in tonnes) &gt; 8.9</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CConnectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CConnectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSMA Mobile Connectivity Index &gt; 48</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCrimeRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCrimeRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate"/>
+        <rdfs:comment>has on average less than 4.90 intentional homicide per 100 000 habitants per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CDrinkingWaterQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CDrinkingWaterQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality"/>
+        <rdfs:comment>has on average less than 2.24% of deaths that are caused by unsafe water</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP"/>
+        <rdfs:comment>has less than 0.112 PPP$ per kg of oil equivalent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumptionPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumptionPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita"/>
+        <rdfs:comment>has less than 2568 kg of oil equivalent per capita per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CGDPperCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CGDPperCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDP (PPP) per capita &gt; 37000</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CHousingAndLivingCosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CHousingAndLivingCosts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts"/>
+        <rdfs:comment>has a value more than 115% for the living+rent estimator compared to Prague</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLitteracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLitteracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy"/>
+        <rdfs:comment>has more than 84% of the population that can read at the age of 15</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLogisticPerformanceIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLogisticPerformanceIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of trade and transport related infrastructures (on a scale from 1 to 5, worldbank) &gt; 2</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CObesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CObesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity"/>
+        <rdfs:comment>has less than 22% of the population which is obese</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CPrimarySchoolEnrollment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CPrimarySchoolEnrollment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment"/>
+        <rdfs:comment>Corresponds to a primary school enrollment over 90%.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CRecyclingRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CRecyclingRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of waste recycled and composted &gt; 30%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of congestion &lt; 40%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CUnemploymentRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CUnemploymentRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unemployment rate &lt; 6.5% (of the active population)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#China -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#China">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CityWithGoodEducation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CityWithGoodEducation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#APrimarySchoolEnrollment"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CityWithPotentialForFutur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CityWithPotentialForFutur">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAgeDependancyRatio"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAgeDependancyRatio"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAgeDependancyRatio"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAgeDependancyRatio"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLitteracy"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#APrimarySchoolEnrollment"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BPrimarySchoolEnrollment"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CityWithSubstancialEffort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CityWithSubstancialEffort">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACarbonFootPrintPerCapita"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCarbonFootPrintPerCapita"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCarbonFootPrintPerCapita"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCarbonFootPrintPerCapita"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AHousingAndLivingCosts"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BHousingAndLivingCosts"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CHousingAndLivingCosts"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ARecyclingRate"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#D-Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#D-Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innnovation score (given by Innovation Cities™ Index) &gt; 35</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAgeDependancyRatio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAgeDependancyRatio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of working age population &gt; 50%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAirPollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAirPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution"/>
+        <rdfs:comment>has less than 100 µg/m^3 of pollution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCarbonFootPrintPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCarbonFootPrintPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average carbon emission per capita (in tonnes) &gt; 12.4</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DConnectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DConnectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSMA Mobile Connectivity Index &gt; 36</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCrimeRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCrimeRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate"/>
+        <rdfs:comment>has on average less than 10 intentional homicide per 100 000 habitants per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DDrinkingWaterQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DDrinkingWaterQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality"/>
+        <rdfs:comment>has on average less than 5.7% of deaths that are caused by unsafe water</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP"/>
+        <rdfs:comment>has less than 0.142 PPP$ per kg of oil equivalent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumptionPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumptionPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita"/>
+        <rdfs:comment>has less than 5753 kg of oil equivalent per capita per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DGDPperCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DGDPperCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDP (PPP) per capita &gt; 30000</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DHousingAndLivingCosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DHousingAndLivingCosts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts"/>
+        <rdfs:comment>has a value more than 148% for the living+rent estimator compared to Prague</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DLitteracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DLitteracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy"/>
+        <rdfs:comment>has more than 57% of the population that can read at the age of 15</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DLogisticPerformanceIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DLogisticPerformanceIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of trade and transport related infrastructures (on a scale from 1 to 5, worldbank) &gt; 1.5</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DObesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DObesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity"/>
+        <rdfs:comment>has less than 25% of the population which is obese</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DPrimarySchoolEnrollment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DPrimarySchoolEnrollment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment"/>
+        <rdfs:comment>Corresponds to a primary school enrollment over 80%.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DRecyclingRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DRecyclingRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of waste recycled and composted &gt; 20%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DTrafficCongestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DTrafficCongestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of congestion &lt; 50%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DUnemploymentRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DUnemploymentRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unemployment rate &lt; 10% (of the active population)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Dubai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Dubai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_Arab_Emirates"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BPrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DRecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BTrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DynamicCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DynamicCity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AUnemploymentRate"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#E-Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#E-Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innnovation score (given by Innovation Cities™ Index) &lt; 35</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AgeDependancyRatio"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of working age population &lt; 43%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAirPollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAirPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AirPollution"/>
+        <rdfs:comment>has more than 100 µg/m^3 of pollution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECarbonFootPrintPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECarbonFootPrintPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CarbonFootprintPerCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average carbon emission per capita (in tonnes) &gt; 19.3</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EConnectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EConnectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Connectivity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSMA Mobile Connectivity Index &lt; 36</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECrimeRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECrimeRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CrimeRate"/>
+        <rdfs:comment>has on average more than 10 intentional homicide per 100 000 habitants per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EDrinkingWaterQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EDrinkingWaterQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DrinkingWaterQuality"/>
+        <rdfs:comment>has on average more than 5.7% of deaths that are caused by unsafe water</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP"/>
+        <rdfs:comment>has less than 0.201 PPP$ per kg of oil equivalent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita"/>
+        <rdfs:comment>has more than 5753 kg of oil equivalent per capita per year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EGDPperCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EGDPperCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDP (PPP) per capita &lt; 30000</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EHousingAndLivingCosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EHousingAndLivingCosts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts"/>
+        <rdfs:comment>has a value more than 169% for the living+rent estimator compared to Prague</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ELitteracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ELitteracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy"/>
+        <rdfs:comment>has less than 57% of the population that can read at the age of 15</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ELogisticPerformanceIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ELogisticPerformanceIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality of trade and transport related infrastructures (on a scale from 1 to 5, worldbank) &lt; 1.5</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EObesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EObesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity"/>
+        <rdfs:comment>has less more than 25% of the population which is obese</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EPrimarySchoolEnrollment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EPrimarySchoolEnrollment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment"/>
+        <rdfs:comment>Corresponds to a primary school enrollment smaller than 80%.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ERecyclingRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ERecyclingRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of waste recycled and composted &lt; 20%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ETrafficCongestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ETrafficCongestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of congestion &gt; 50%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EUnemploymentRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EUnemploymentRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unemployment rate &gt; 10% (of the active population)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyConsumptionPerGDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyGreedyCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EnergyGreedyCity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumptionPerCapita"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumptionPerCapita"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumption"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumption"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumption"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DTrafficCongestion"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ETrafficCongestion"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#GDPperCapita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HealthyCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HealthyCity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAirPollution"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAirPollution"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ARecyclingRate"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#HousingAndLivingCosts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Index"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#India -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#India">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Litteracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#LogisticPerformanceIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Los_Angeles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Los_Angeles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_States"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BPrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ARecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DTrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#New_Delhi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#New_Delhi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#India"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EDrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#B-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ELitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CPrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ERecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ETrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Obesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Index"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Index"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PrimarySchoolEnrollment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PeopleIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Index"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#RecyclingRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#PlanetIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Seoul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Seoul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#South_Korea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BPrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ETrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Singapore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Singapore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#SingaporeCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#SingaporeCity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Singapore"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#APrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#South_Korea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#South_Korea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Stockholm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Stockholm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Sweden"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#APrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ARecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Sweden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Sweden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Switzerland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Switzerland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#TrafficCongestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#UnemploymentRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ProfitIndex"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_Arab_Emirates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_Arab_Emirates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_States -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_States">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Zurich -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Zurich">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#NamedCities"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#IsIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Switzerland"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAgeDependancyRatio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAgeDependancyRatio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasAirPollution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCarbonFootprintPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCarbonFootPrintPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasConnectivity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasCrimeRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACrimeRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasDrinkingWaterQuality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumptionPerCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasEnergyConsumptionPerGDP"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AEnergyConsumption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasGDPperCapita"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasHousingAndLivingCosts"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EHousingAndLivingCosts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasInnovation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#B-Innovation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLitteracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasLogisticPerformanceIndex"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasObesity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CObesity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasPrimarySchoolEnrollment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CPrimarySchoolEnrollment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasRecyclingRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasTrafficCongestion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#hasUnemploymentRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BUnemploymentRate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#A-Innovation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#B-Innovation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#C-Innovation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#D-Innovation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#E-Innovation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAgeDependancyRatio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAgeDependancyRatio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAgeDependancyRatio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAgeDependancyRatio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAgeDependancyRatio"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AAirPollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BAirPollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CAirPollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DAirPollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EAirPollution"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACarbonFootPrintPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCarbonFootPrintPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCarbonFootPrintPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCarbonFootPrintPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECarbonFootPrintPerCapita"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AConnectivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BConnectivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CConnectivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DConnectivity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EConnectivity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ACrimeRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BCrimeRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CCrimeRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DCrimeRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ECrimeRate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ADrinkingWaterQuality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BDrinkingWaterQuality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CDrinkingWaterQuality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DDrinkingWaterQuality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EDrinkingWaterQuality"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AEnergyConsumption"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumption"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumption"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumption"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumption"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AEnergyConsumptionPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BEnergyConsumptionPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CEnergyConsumptionPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DEnergyConsumptionPerCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EEnergyConsumptionPerCapita"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AGDPperCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BGDPperCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CGDPperCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DGDPperCapita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EGDPperCapita"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AHousingAndLivingCosts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BHousingAndLivingCosts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CHousingAndLivingCosts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DHousingAndLivingCosts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EHousingAndLivingCosts"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALitteracy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLitteracy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLitteracy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DLitteracy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ELitteracy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ALogisticPerformanceIndex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BLogisticPerformanceIndex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CLogisticPerformanceIndex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DLogisticPerformanceIndex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ELogisticPerformanceIndex"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AObesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BObesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CObesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DObesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EObesity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#APrimarySchoolEnrollment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BPrimarySchoolEnrollment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CPrimarySchoolEnrollment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DPrimarySchoolEnrollment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EPrimarySchoolEnrollment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ARecyclingRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BRecyclingRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CRecyclingRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DRecyclingRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ERecyclingRate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ATrafficCongestion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BTrafficCongestion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CTrafficCongestion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DTrafficCongestion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#ETrafficCongestion"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#AUnemploymentRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#BUnemploymentRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#CUnemploymentRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#DUnemploymentRate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#EUnemploymentRate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Beijing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Dubai"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Los_Angeles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#New_Delhi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Seoul"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#SingaporeCity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Stockholm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Zurich"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#China"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#India"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Singapore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#South_Korea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Sweden"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#Switzerland"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_Arab_Emirates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alicia/ontologies/2020/9/sutainable-cities#United_States"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

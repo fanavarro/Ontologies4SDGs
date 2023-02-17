@@ -1,0 +1,1514 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/i7/ontologies/2020/10/untitled-ontology-51"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/i7/ontologies/2020/10/untitled-ontology-51">
+    <Prefix name="" IRI="http://www.semanticweb.org/i7/ontologies/2020/10/untitled-ontology-51"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Alzheimer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asthma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bartholinite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiovascular_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiovascular_drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiovascular_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epilepsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastrointestinal_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastrointestinal_drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gynaecological_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gynaecological_drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gynaecological_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematemesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Miramistin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurological_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurological_drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurological_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharyngitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rocephin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timentin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toothache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unasyn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zileuton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zosyn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abdominal_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abnormal_posturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abnormal_vaginal_bleeding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acalculia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agnosia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alexia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenorrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amnesia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#analgin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anomia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anorexia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anosognosia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#antibiotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appendicite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aripiprazole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arrhythmia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asthenia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#azithromycin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#baloxavir_marboxil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bleeding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bloating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blood_in_stool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bradycardia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cachexia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carbamazepine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cephalexin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chest_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chills_and_shivering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chlorhexidine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#claudication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clozapine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#constipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#convulsions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decongestants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deformity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#discharge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dizziness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#donepezil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dry_mouth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#epistaxis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#galantamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#halitosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#haloperidol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hearing_loss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypothermia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jaundice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#keflex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#malaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#miscarriage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#montelukast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#muscle_weakness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nasal_discharge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nurofen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oseltamivir_phosphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#otalgia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#otorrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oxcarbazepine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#painful_intercourse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#palpitations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paracetamol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pelvic_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peramivir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peremivir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phenytoin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prednisone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pyrexia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risperidone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rivastigmine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sinusitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sore_throat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#swelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#swollen_or_painful_lymph_node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tachycardia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tinnitus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trismus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vaginal_bleeding_in_late_pregnancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vaginal_discharge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valproic_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weight_gain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weight_loss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zafirlukast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zanamivir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes_symptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_caused"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_cured"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Alzheimer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Neurological_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#donepezil"/>
+                    <Class IRI="#galantamine"/>
+                    <Class IRI="#rivastigmine"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asthma"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ear_Nose_and_Throat_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Zileuton"/>
+                    <Class IRI="#montelukast"/>
+                    <Class IRI="#zafirlukast"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Autism"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Neurological_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#aripiprazole"/>
+                    <Class IRI="#clozapine"/>
+                    <Class IRI="#risperidone"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bartholinite"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gynaecological_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Miramistin"/>
+                    <Class IRI="#analgin"/>
+                    <Class IRI="#chlorhexidine"/>
+                    <Class IRI="#nurofen"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cardiovascular_disease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Disease"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <ObjectUnionOf>
+                        <ObjectMinCardinality cardinality="1">
+                            <ObjectProperty IRI="#causes_symptom"/>
+                            <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+                        </ObjectMinCardinality>
+                        <ObjectMinCardinality cardinality="1">
+                            <ObjectProperty IRI="#causes_symptom"/>
+                            <Class IRI="#General_symptom"/>
+                        </ObjectMinCardinality>
+                    </ObjectUnionOf>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#causes_symptom"/>
+                        <Class IRI="#Cardiovascular_symptom"/>
+                    </ObjectMinCardinality>
+                </ObjectIntersectionOf>
+                <ObjectMinCardinality cardinality="2">
+                    <ObjectProperty IRI="#causes_symptom"/>
+                    <Class IRI="#Cardiovascular_symptom"/>
+                </ObjectMinCardinality>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Disease"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#causes_symptom"/>
+                        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+                    </ObjectMinCardinality>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#causes_symptom"/>
+                        <Class IRI="#General_symptom"/>
+                    </ObjectMinCardinality>
+                </ObjectIntersectionOf>
+                <ObjectMinCardinality cardinality="2">
+                    <ObjectProperty IRI="#causes_symptom"/>
+                    <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+                </ObjectMinCardinality>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Epilepsy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Neurological_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#carbamazepine"/>
+                    <Class IRI="#oxcarbazepine"/>
+                    <Class IRI="#phenytoin"/>
+                    <Class IRI="#valproic_acid"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Flu"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ear_Nose_and_Throat_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#baloxavir_marboxil"/>
+                    <Class IRI="#oseltamivir_phosphate"/>
+                    <Class IRI="#peramivir"/>
+                    <Class IRI="#zanamivir"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gastrointestinal_disease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Disease"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#causes_symptom"/>
+                        <Class IRI="#Gastrointestinal_symptom"/>
+                    </ObjectMinCardinality>
+                    <ObjectMinCardinality cardinality="1">
+                        <ObjectProperty IRI="#causes_symptom"/>
+                        <Class IRI="#General_symptom"/>
+                    </ObjectMinCardinality>
+                </ObjectIntersectionOf>
+                <ObjectMinCardinality cardinality="2">
+                    <ObjectProperty IRI="#causes_symptom"/>
+                    <Class IRI="#Gastrointestinal_symptom"/>
+                </ObjectMinCardinality>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#General_disease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#causes_symptom"/>
+                <Class IRI="#General_symptom"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gynaecological_disease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#causes_symptom"/>
+                <Class IRI="#Gynaecological_symptom"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Neurological_disease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#causes_symptom"/>
+                <Class IRI="#Neurological_symptom"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pharyngitis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cardiovascular_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#azithromycin"/>
+                    <Class IRI="#cephalexin"/>
+                    <Class IRI="#keflex"/>
+                    <Class IRI="#prednisone"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appendicite"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gastrointestinal_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Rocephin"/>
+                    <Class IRI="#Timentin"/>
+                    <Class IRI="#Unasyn"/>
+                    <Class IRI="#Zosyn"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#sinusitis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ear_Nose_and_Throat_disease"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#is_cured"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#antibiotic"/>
+                    <Class IRI="#decongestants"/>
+                </ObjectIntersectionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Alzheimer"/>
+        <Class IRI="#Neurological_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asthma"/>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asthma"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#chest_pain"/>
+                <Class IRI="#dry_mouth"/>
+                <Class IRI="#fatigue"/>
+                <Class IRI="#sore_throat"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autism"/>
+        <Class IRI="#Neurological_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autism"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#anosognosia"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bartholinite"/>
+        <Class IRI="#Gynaecological_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bartholinite"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#abnormal_vaginal_bleeding"/>
+                <Class IRI="#vaginal_discharge"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_disease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#Cardiovascular_symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_cured"/>
+            <Class IRI="#Cardiovascular_drug"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cardiovascular_symptom"/>
+                <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+                <Class IRI="#Gastrointestinal_symptom"/>
+                <Class IRI="#General_symptom"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_cured"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cardiovascular_drug"/>
+                <Class IRI="#Ear_Nose_and_Throat_drug"/>
+                <Class IRI="#Gastrointestinal_drug"/>
+                <Class IRI="#General_drug"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_disease"/>
+        <ObjectMaxCardinality cardinality="3">
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_drug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiovascular_symptom"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#Symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectUnionOf>
+                <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+                <Class IRI="#General_symptom"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_cured"/>
+            <ObjectUnionOf>
+                <Class IRI="#Ear_Nose_and_Throat_drug"/>
+                <Class IRI="#General_drug"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+        <ObjectMaxCardinality cardinality="3">
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epilepsy"/>
+        <Class IRI="#Neurological_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epilepsy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#agnosia"/>
+                <Class IRI="#dizziness"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flu"/>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flu"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#dizziness"/>
+                <Class IRI="#dry_mouth"/>
+                <Class IRI="#fatigue"/>
+                <Class IRI="#nasal_discharge"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastrointestinal_disease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastrointestinal_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#Gastrointestinal_symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastrointestinal_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectUnionOf>
+                <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+                <Class IRI="#Gastrointestinal_symptom"/>
+                <Class IRI="#General_symptom"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastrointestinal_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_cured"/>
+            <ObjectUnionOf>
+                <Class IRI="#Ear_Nose_and_Throat_drug"/>
+                <Class IRI="#Gastrointestinal_drug"/>
+                <Class IRI="#General_drug"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastrointestinal_disease"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastrointestinal_drug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastrointestinal_symptom"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_disease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_cured"/>
+            <Class IRI="#General_drug"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_disease"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_disease"/>
+        <ObjectMaxCardinality cardinality="5">
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_drug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_symptom"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecological_disease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecological_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#Gynaecological_symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecological_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gastrointestinal_symptom"/>
+                <Class IRI="#General_symptom"/>
+                <Class IRI="#Gynaecological_symptom"/>
+                <Class IRI="#Neurological_symptom"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecological_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_cured"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gastrointestinal_drug"/>
+                <Class IRI="#General_drug"/>
+                <Class IRI="#Gynaecological_drug"/>
+                <Class IRI="#Neurological_drug"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecological_disease"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#General_symptom"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecological_drug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynaecological_symptom"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hematemesis"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infertility"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miramistin"/>
+        <Class IRI="#Gynaecological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological_disease"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#Neurological_symptom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <Class IRI="#amnesia"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cardiovascular_symptom"/>
+                <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+                <Class IRI="#Gastrointestinal_symptom"/>
+                <Class IRI="#General_symptom"/>
+                <Class IRI="#Neurological_symptom"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_cured"/>
+            <ObjectUnionOf>
+                <Class IRI="#Cardiovascular_drug"/>
+                <Class IRI="#Ear_Nose_and_Throat_drug"/>
+                <Class IRI="#Gastrointestinal_drug"/>
+                <Class IRI="#General_drug"/>
+                <Class IRI="#Neurological_drug"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological_drug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological_symptom"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharyngitis"/>
+        <Class IRI="#Cardiovascular_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharyngitis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#chest_pain"/>
+                <Class IRI="#claudication"/>
+                <Class IRI="#dry_mouth"/>
+                <Class IRI="#fatigue"/>
+                <Class IRI="#sore_throat"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rocephin"/>
+        <Class IRI="#Gastrointestinal_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timentin"/>
+        <Class IRI="#Gastrointestinal_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toothache"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unasyn"/>
+        <Class IRI="#Gastrointestinal_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zileuton"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zosyn"/>
+        <Class IRI="#Gastrointestinal_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abdominal_pain"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abnormal_posturing"/>
+        <Class IRI="#Neurological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abnormal_vaginal_bleeding"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acalculia"/>
+        <Class IRI="#Neurological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agnosia"/>
+        <Class IRI="#Neurological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alexia"/>
+        <Class IRI="#Neurological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenorrhea"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amnesia"/>
+        <Class IRI="#Neurological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#analgin"/>
+        <Class IRI="#Gynaecological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anomia"/>
+        <Class IRI="#Neurological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anorexia"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anosognosia"/>
+        <Class IRI="#Neurological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#antibiotic"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appendicite"/>
+        <Class IRI="#Gastrointestinal_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appendicite"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#constipation"/>
+                <Class IRI="#dizziness"/>
+                <Class IRI="#weight_loss"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aripiprazole"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arrhythmia"/>
+        <Class IRI="#Cardiovascular_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asthenia"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#azithromycin"/>
+        <Class IRI="#Cardiovascular_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#baloxavir_marboxil"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belching"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bleeding"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bloating"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blood_in_stool"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bradycardia"/>
+        <Class IRI="#Cardiovascular_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cachexia"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carbamazepine"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cephalexin"/>
+        <Class IRI="#Cardiovascular_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chest_pain"/>
+        <Class IRI="#Cardiovascular_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chills_and_shivering"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chlorhexidine"/>
+        <Class IRI="#Gynaecological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#claudication"/>
+        <Class IRI="#Cardiovascular_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clozapine"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#constipation"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#convulsions"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decongestants"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deformity"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diarrhea"/>
+        <Class IRI="#Gastrointestinal_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#discharge"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dizziness"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#donepezil"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dry_mouth"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#epistaxis"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fatigue"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#galantamine"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#halitosis"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#haloperidol"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hearing_loss"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypothermia"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jaundice"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#keflex"/>
+        <Class IRI="#Cardiovascular_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#malaise"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#miscarriage"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#montelukast"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#muscle_weakness"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nasal_discharge"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nurofen"/>
+        <Class IRI="#Gynaecological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oseltamivir_phosphate"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#otalgia"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#otorrhea"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oxcarbazepine"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#painful_intercourse"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#palpitations"/>
+        <Class IRI="#Cardiovascular_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paracetamol"/>
+        <Class IRI="#General_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pelvic_pain"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peramivir"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peremivir"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phenytoin"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prednisone"/>
+        <Class IRI="#Cardiovascular_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pyrexia"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#risperidone"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rivastigmine"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sinusitis"/>
+        <Class IRI="#Ear_Nose_and_Throat_disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sinusitis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#causes_symptom"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#dry_mouth"/>
+                <Class IRI="#nasal_discharge"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sore_throat"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sweats"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swelling"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swollen_or_painful_lymph_node"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tachycardia"/>
+        <Class IRI="#Cardiovascular_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tinnitus"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trismus"/>
+        <Class IRI="#Ear_Nose_and_Throat_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaginal_bleeding_in_late_pregnancy"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaginal_discharge"/>
+        <Class IRI="#Gynaecological_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valproic_acid"/>
+        <Class IRI="#Neurological_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weight_gain"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weight_loss"/>
+        <Class IRI="#General_symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zafirlukast"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zanamivir"/>
+        <Class IRI="#Ear_Nose_and_Throat_drug"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Asthma"/>
+        <Class IRI="#Flu"/>
+        <Class IRI="#sinusitis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Drug"/>
+        <Class IRI="#Symptom"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hematemesis"/>
+        <Class IRI="#abdominal_pain"/>
+        <Class IRI="#belching"/>
+        <Class IRI="#bleeding"/>
+        <Class IRI="#bloating"/>
+        <Class IRI="#blood_in_stool"/>
+        <Class IRI="#constipation"/>
+        <Class IRI="#diarrhea"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#causes_symptom"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#cures"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_caused"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_cured"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causes_symptom"/>
+        <ObjectProperty IRI="#is_caused"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#cures"/>
+        <ObjectProperty IRI="#is_cured"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causes_symptom"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cures"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_caused"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_cured"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causes_symptom"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cures"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_caused"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_cured"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#General_disease</IRI>
+        <Literal>General_disease are diseases that happen quite often and can be of any type of diseases</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
