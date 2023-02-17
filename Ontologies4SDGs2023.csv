@@ -1,0 +1,220 @@
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,, ,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Topic of the ontology,UN SDG Number it tackles,"Specific problem title within this UN SDG (e.g.: Hunger, Health access, etc)",Nr of classes,Nr of data properties,Nr of object properties,Nr of individuals (i.e. total instances of all total classes defined),Inference problem demonstrated nr 1,Inference problem demonstrated nr 2,Inference problem demonstrated nr 3,Data source that inspired the ontology,"Application or service (could be based on Machine learning problem) this ontology could be used for. It could be a machine learning problem that will be fed with the data modelled by this ontology.  The task the ontology is expected to do includes: Classification, recommendation, matchmaking, consistency checks, information retrieval, etc.","Amount of extra points to rise to Grade 17, 18,19/20",Is automatic inference clearly showcased with examples?,Final Grade (Max 20 points),Notes,,,,,
+"Course options at Polytechnique: Constraint of courses, schedule and pre-requisites",Goal 4,Diversity in Education,6 main classes- Total of 73,2,28,76,Course classification in tracks,Student attendance in course,Course association in timeslot,http://www.enseignement.polytechnique.fr/informatique/3A/,Recommendation,,,18,no SDG? (timetable making),,,,,
+"Adverse effects of blood transfusion: causes, symptoms and treatments",Goal 3,Health,,,,,,,,,,,so-so,16,Modelling error,,,,,
+"Recommendation of the possible employments for students, based on the personal preferences and qualifications",Goal 4,"Substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship",,,,,,,,,,,yes,17,"No real explanation, why it infers wants to work at?",,,,,
+"Maladies/diseases: finding the disease from the symptoms, recommandation of treatments",Goal n°3,"By 2030, reduce by one third premature mortality from 
+non-communicable diseases through prevention and treatment
+
+Strengthen the capacity of all countries, in particular developing 
+countries, for early warning, risk reduction and management of 
+national and global health risks",4 main classes - Total of 346 classes,0,15,190,None,,,"https://fr.wikipedia.org/wiki/Liste_des_maladies
+https://fr.wikipedia.org/wiki/G%C3%A9ographie_de_l%27Asie
+https://fr.wikipedia.org/wiki/Europe_du_Nord
+https://fr.wikipedia.org/wiki/Am%C3%A9rique_du_Sud
+https://fr.wikipedia.org/wiki/Portail:Afrique
+https://www.ameli.fr/essonne
+https://www.doctissimo.fr/
+https://fr.wikipedia.org/wiki/Chronologie_des_vaccins
+https://www.who.int/","Information retrieval,matchmaking",,no,9,"nonsense, symptom is not a disease, no inference really. Quantity, not quality.",,,,,
+"Education : finding a country where a teacher has the ability to teach, according to the requirements of each country",Goal 4,"""By 2030, substantially increase the supply of 
+qualified teachers, including through 
+international cooperation for teacher training in 
+developing countries, especially least developed
+ countries and small island developing States""","3 main classes (Knowledge, Country, Level) - Total of 30 classes",0,12,9,transitivity property,inverse property,,,Matchmaking,,,12,not very practical to infer that french C2 requires B1,,,,,
+sport exercice recommandation based on target muscle,Goal 3,Health,,,,,,,,,,,,19,,,,,,
+Sport recommendation system for restriction based shape keeping,Goal 3,Sport recommendation to improve health and well-being ,9 main classes - Total of 130 classes,0,11,0,O : infers one or many sports based on provided restrictions,,,https://www.regivia.com/activite-physique-et-sport/quels-sports-pour-se-muscler/,Recommendation,,,17,Error: sport is not equivalent to an equipment,,,,,
+"Fruits and vegetables : seasonality, locality for a better consumption",Goal 12,B9 Supporting local entrepeneurs and fair trade,5 main classes - Total of 63,0,17,102,O: Inverse properties,C: objects classification,,https://www.lesfruitsetlegumesfrais.com/      https://www.lesfruitsetlegumesfrais.com/fruits-legumes,Recommendation,,,19.5,OWA mistake and no result for produced in Belgium?,,,,,
+Ecosystèmes/environnement. Manage and assess bodies of water as well as their relationships and their environmental status at global scale.,Goal 6,"Increase clean water availability,  improve life under water and strengthen life on land",20,1,8,46,Infers that some body of water are polluted because they are fed in water by polluted body of water.,"Infers that some body of water BW1 are polluted because the reasoner infers that, by transitivity, BW1 is fed by a polluted bodyOfWater.","Infer the complete feeding chain, e.g. for a river, both upstream and downstream",https://docs.google.com/spreadsheets/d/1G-n3LD7nWk9vsGUef_dQcJ2N7SHRzilI97Ak08gD6nQ/edit?usp=sharing   et   https://www.bilans-ges.ademe.fr/documentation/UPLOAD_DOC_FR/index.htm?moyenne_par_pays.htm,"classification, information retrieval, evaluation",,,19,,,,,,
+"Urban transport : recommandation depending on costs/revenues, carbon footprint, accessibility, personal constraints, etc.",Goal #11,Sustainability transport,2 main classes: transportMode and TransportModeProperty. Total of 82 classes,0,9,0,Classification,,,,Recommendation,,,19,Transport,,,,,
+"Waste management: classify whether a product is recyclable based on its composition (paper, glass, plastics etc)",Goal 12,Ensure substainable consumption,3 main classes - Total of 72 classes.,0,7,0,Objects classification,Material classification,,"https://saint-genix-sur-guiers.net/vie-pratique/ordures-menageres-et-tri-des-dechets/plastique/
+https://www.teteamodeler.com/ecologie/ecologie-geste/recyclage/dechets-metal.asp
+https://www.clikeco.com/P-47-88-F1-le-recyclage-des-dechets-papiers-et-cartons.html",Classification,,,19.5,All trash components correctly classified,,,,,
+Mental Health,Goal 3,Helps to find and gather information,14,0,6,68,Quels sont les bienfaits d'une certaine pratique sur la santé mentale ? ,Quelle maladie correspond à mes symptomes ? ,Quelles risques liés aux complications de ma maladie encroure-je  ?,https://docs.google.com/document/d/1TNdn1nE15lJhTq9F8bn6wKIN2kLrqH8cucOF1SwtK9I/edit?usp=sharing,Information retrieval,,,19,,,,,,
+AI modeling process,Goal 4,Advanced Education,"3 main classes, 14 in total",9,7,50,Method recommendations for ML application,Supervised / Unsupervised method classification ,Effective methods classification,https://en.wikipedia.org/wiki/Machine_learning,Classification+recommendation,xx,n,17,,,,,,
+Car selection based on CO2 footprint and price,Goal 13,Sustainable car for climate action,34,3,8,16,Classification based on carbon footprint ,Classification based on price,,,Classification,,,19,,,,,,
+COVID-19 inspection ,Goal 3,"Gathering information about COVID-19 : exposure, symptoms and weakening diseases","8 main classes, 42 in total",0,32,32,none,,,,Information retrieval,,n,14,"Covid: not compiling rdf error and no definition of contact case, not illustrating case. Much worse than other covid ocase of CALDAS",,,,,
+"Fish classification : endangered species based on some indicators (Predators, Location, Human threat, etc)",Goal 14 ,"Conservation of the biodiversity : with some characteristics of a fish we can identify the species it belongs to, and then deduce its potential vulnerability, if we can practice fishing or not...","4 main classes : colors, endangerement, fish, location. Total : 60 classes",2,6,7,"Classification. With a description of a fish : color, shape, type of water it lives in, length ----> infer the family of this fish ",With information on the vulnerability of a family of fishes ---> infer if it's fishable or not,,"https://fr.wikipedia.org/wiki/Liste_des_poissons_d%27eau_douce_en_France_m%C3%A9tropolitaine
+https://www.iucnredlist.org/search?query=Fishes&searchType=species
+","Classification, information retrieval",,,19,,,,,,
+Streaming Platform categories,,Movie System Recommandation and Classification,92 classes and 176 subclasses,2,35,6,,,,"https://fr.wikipedia.org/wiki/Titanic_(film,_1997) https://fr.wikipedia.org/wiki/Inglourious_Basterds https://www.allocine.fr/film/fichefilm_gen_cfilm=5818.html https://www.allocine.fr/film/fichefilm_gen_cfilm=60208.html","Classification, ranking by value",,,7,"non sense ontology, no inference, concepts unclear properties cannot be inferred, no SDG",,,,,
+Sustainable Cities and Human Settlements,Goal 11,"Promoting shelter for all, human settlements planning and management in disaster-prone areas and promoting sustainable construction of industries","3 main classes, Total: 43",0,7,19,Classification,,,"https://sustainabledevelopment.un.org/content/documents/17765document.pdf
+https://www.sheltercluster.org/sites/default/files/docs/human_settlements_development_and_disaster_risks_in_pacific_island_countries.pdf",Recommendation,,n,14,no inference,,,,,Explanation not used?
+Football players,Goal 3,Good Health and Wellbeing,67 classes,12,11,80,,,,,,,n,10,"no example of inference, no SDG",,,,,
+Destination choice in Europe for a group of friends,Goal 12,Develop and implement tools to monitor sustainable tourism,"2 main classes : DomainThing, ValuePartition. Total : 7 classes.",2,8,33,"Recommandation of european cities to travel to from Paris, based of several criterias, including distance",,,"https://www.google.ru/maps
+https://en.wikipedia.org/wiki/Poland
+https://en.wikipedia.org/wiki/Russia
+https://en.wikipedia.org/wiki/United_Kingdom
+https://en.wikipedia.org/wiki/Italy
+https://en.wikipedia.org/wiki/Greece
+https://en.wikipedia.org/wiki/Sweden
+https://en.wikipedia.org/wiki/Spain
+https://en.wikipedia.org/wiki/Germany
+https://fr.wikipedia.org/wiki/France",Recommandation,,y but missing long example screenshot,19,Nice examples on queries using inverse property,,,,,
+Sustainable cities ,Goal 11,Sustainable cities,Total of 137 classes,0,20,0,Classification : classify cities into city profiles,,,"https://www.arcadis.com/en/global/news/latest-news/european-and-asian-cities-lead-in-arcadis-sustainable-cities-index/1839296/
+www.worldbank.org
+ourworldindata.org
+www.expatistan.com
+www.numbeo.com
+www.tomtom.com
+www.mobileconnectivityindex.com
+www.innovation-cities.com
+www.wikipedia.org",Classification,,y,19,,,,,,
+"Modes of transportation - impact on the environment based on { noise pollution, consumption, availability, infrastructure needs, capacity, speed/efficiency } ",Goal n°12,Sustainable transport and air pollution,Total of 91 classes,0,15,0,,,,en.wikipedia.org/wiki/Environmental_impact_of_transport,Comparison,,y,17,Just one simple test,,,,,
+"Matching system for disease, symptoms and cure",Goal N°3,"Health care: Matching system for disease, symptoms and cure","3 main classes, for a total of 123 classes",0,5,0,0,,,https://en.wikipedia.org/wiki/List_of_medical_symptoms?fbclid=IwAR07hmQpd1A7B2RqZjuhQjEARBlj_TYdotLqOk3jjdksPp5OqBrWKVdfZF4,matchmaking,,y,17,,,,,,
+Increase energie efficiency and the share of renewable energy in the global energy mix ,Goal n°7,"By 2030, increase substantially the share of renewable energy in the global energy mix","5 main classes, total of 43 classes",0,11,0,,,,"https://fr.wikipedia.org/wiki/%C3%89lectricit%C3%A9_en_Allemagne
+https://fr.wikipedia.org/wiki/%C3%89lectricit%C3%A9_aux_%C3%89tats-Unis 
+https://fr.wikipedia.org/wiki/%C3%89lectricit%C3%A9_en_France ",,x,n,11,,,,,,
+"Sustainable vegetable garden:  list of fruits and vegetables,  fertilizers and mineral nutrients , insects, companion planting (growing side by side), Biodynamic planting, organic farming,  ",Goal n°2,Improved nutrition  and promote  sustainable agriculture .,Subclassof (object Thing) : 179 ,6,14,24,consistency checks,,,"https://www.bunnings.com.au/diy-advice/sustainability/garden-ideas-tips-projects/going-green-with-a-sustainable-kitchen-garde
+ https://www.burpee.com/gardenadvicecenter/vegetables/general-gardening/sustainable-vegetable-gardening/article10768.html
+https://sympathink.com/vegetables/easy-vegetable-types/
+https://crisisequipped.com/crops-to-grow-in-your-survival-garden/
+https://www.masterclass.com/articles/how-to-choose-fruit-plants-for-your-home-garden
+https://www.brandonu.ca/hortline/plant-care/ 
+https://www.farmersalmanac.com/companion-planting-guide-31301
+https://garden.lovetoknow.com/wiki/Which_Vegetables_Grow_Well_Together
+https://www.finegardening.com/article/raising-animals-as-gardening-allies
+https://extension.colostate.edu/topic-areas/yard-garden/vegetable-gardening-nitrogen-recommendations-7-247/
+https://www.globalnetacademy.edu.au/grow-better-root-vegetables-by-adding-phosphorus-to-your-soil/
+https://www.lifeisjustducky.com/hot-weather-vegetables/
+https://plantcaretoday.com/27-plants-dont-like-mix.html 
+
+","recommendation ,consistency checks",,too minor,15,"no real inferences, inheriting range and domain is not really a didactic automatic reasoning inference to showcase",,,,,
+Waste classification to enhance recycling management ,Goal n°12,"""By 2030, substantially reduce waste generation through prevention, reduction, 
+recycling and reuse""","6 main classes : Waste, WasteMaterial, WasteOrigin, Radioactivity, Hazardness, 
+WasteManagingScale. Total : 254 classes.",0,9,22,Classification of waste,,,"https://www.medprodisposal.com/medical-waste-disposal/what-is-medical-waste-medical-waste-definition-types-examples-and-more/
+https://ieer.org/resource/classroom/classifications-nuclear-waste/
+https://www.cityofsignalhill.org/DocumentCenter/View/4118/organic-recycling?bidId=
+https://www.researchgate.net/figure/Classification-of-E-waste-categories-based-on-their-uses_fig8_323398372
+https://www.dgair.com.au/1970/01/01/classification-of-industrial-and-hazardous-wastes/","Classification, recommendation",,y,19,only classes but clear,,,,,
+An ontology to help urban planners make cities greener,Goal n°11,Promoting sustainable land-use planning and management,"3 main classes: Tree, Attribute, PotentialUse. Total: 85 classes",0,11,0,Classification of trees,Decision-making for planting trees given a use,,http://www.tdag.org.uk/species-selection-for-green-infrastructure.html,"Matchmaking, recommendation",,y,19.5,,,,,,
+Recommendation System of recipes depending on the patient profile,Goal 3,Recommending remedy to symtom related to efficiency in a specifi nutrient,total:59 classes,,,,,,,,,,y but 1,17,Chain property with SWRL,,,,,
+Amazonian ecosystem: dependence of species ,Goal n°15 + 14 + 13,Protect vulnerable species in the threatened Amazonian Rainforest by showcasing the complex links in its ecosystem.,Total of 265 classes,0,22,0,"Classsification of Carnivore, Herbivore or Omnivore based on the animal food habits ",Classification of an Apex Predator,Food Chain Dependent on Endangered Species,"https://www.perunature.com/the-wildlife
+https://www.nationalgeographic.com/animals/mammals/
+https://en.wikipedia.org/wiki/Main_Page
+http://rainforest-alliance.org
+https://wwf.panda.org/knowledge_hub/where_we_work/amazon/about_the_amazon/wildlife_amazon/
+https://www.amazon-rainforest.org/
+https://rainforests.mongabay.com/amazon/amazon_wildlife.html
+",,,,,,,,,,
+Food waste reduction process,Goal n°12,Ensure substainable consumption and production,52 classes,16,34,12,Classification of waste food sources,Object property assertions for individuals (drop off specs num 1,Property assertions Bob,https://www.europenowjournal.org/2019/05/06/confronting-waste/,"Classification, Recommandation, Information Retrieval",,y,18,only one reasoning example,,,,,
+Healthy Recipes Ontology (HERO),Goal n. 2,Determining nutritional value of recipes (and particular foods) to ensure a proper nutritional value is achieved,,3,8,31,transitivity,,,"https://opensourcecookbook.cargo.site/ for recipes, https://nutritionfacts.org/ for nutrition data",,,y but simple,15,no SDG,,,,,
+Using an ontology to assess the dangerousness of places for Covid-19 ,Goal n°3.,Health: identify/track COVID clusters giving a level of dangerosity according to social acts and places,2 main classes - total 88 classes,0,12,0,Classification of Dangerousness of Places (Covid) (for unsafe places),Classify people if they are dangerous or not (about COVID contamination),Places safe or not,"• https://www.huffingtonpost.fr/entry/coronavirus-situation-plus-ou-moins-a-risque- tableau_fr_5f4955abc5b64f17e 13d7bd8 
+• https://www.gov.uk/guidance/new-national-restrictions-from-5-november 
+• https://www.gouvernement.fr/info-coronavirus#:~:text=Dans%20le%20cadre%20du%20confinement,kilom%C3%A8tre%20autour%20de%20son%20domicile ",Classification,,y but unclear in report,19.5,covid,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,No SDG handled,,,,,,,,,,,,,,,,,,,
+,Antoine Das Neves,Alice Petit,Cocktails : offer a classification of cocktails according to their ingredients and categorize cocktails according to their alcohol ,,,,"3 main classes : Cocktail, Ingredient, Country. Total : 284 classes",1,30,70,,,,https://fr.wikipedia.org/wiki/Liste_des_cocktails_par_type_d%27alcool,"Recommandation, classification",,n,15,no SDG,
