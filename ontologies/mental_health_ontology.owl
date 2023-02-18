@@ -1,0 +1,2736 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/valentin/ontologies/2020/9/untitled-ontology-13"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/valentin/ontologies/2020/9/untitled-ontology-13">
+    <Prefix name="" IRI="http://www.semanticweb.org/valentin/ontologies/2020/9/untitled-ontology-13"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Authors : Valentin Bernu, Arthur Portevin, Emmanuel Federbush</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>The ontology was successfully classified by HermiT 1.3.8 All classes in the ontology are satisfiable.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>The ontoly present mental disorders, treatments, symptoms, risk factors and potential complications.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>This is an onology about mental health.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Anxiety_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lifestyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mood_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personality_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potential_Complication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychotic_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk_factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexuality_related_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Therapy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aggravates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_the_symptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_lead_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_symptom_of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antidepressants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antipsychotics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antisocial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anxiolytics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Borderline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chronic_disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cognitive_and_behavioral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dependant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Depression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dietary_change"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drug_problems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drugs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Family_conflicts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Financial_problems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genetic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Histronic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Legal_problems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medical_conditions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meditation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mood_stabilizer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_factor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paranoid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Personality_trait"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phobias"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poverty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Problems_with_alcohol_or_drug_use"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Psychoanalysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quit_smoking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Social_isolation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stimulants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suicide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unhappiness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Potential_Complication"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_lead_by"/>
+            <Class IRI="#Mental_disorder"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Risk_factors"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aggravates"/>
+            <Class IRI="#Mental_disorder"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Symptoms"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_symptom_of"/>
+            <Class IRI="#Mental_disorder"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Anxiety_disorder"/>
+        <Class IRI="#Mental_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_disorder"/>
+        <Class IRI="#Mental_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lifestyle"/>
+        <Class IRI="#Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medication"/>
+        <Class IRI="#Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental_disorder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#can_be_partially_cured_by"/>
+            <Class IRI="#Therapy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental_disorder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_the_symptom"/>
+            <Class IRI="#Symptoms"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mood_disorder"/>
+        <Class IRI="#Mental_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personality_disorder"/>
+        <Class IRI="#Mental_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychotic_disorder"/>
+        <Class IRI="#Mental_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sexuality_related_disorder"/>
+        <Class IRI="#Mental_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Therapy"/>
+        <Class IRI="#Management"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Lifestyle"/>
+        <Class IRI="#Medication"/>
+        <Class IRI="#Therapy"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Anxiety_disorder"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eating_disorder"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medication"/>
+        <NamedIndividual IRI="#Antidepressants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medication"/>
+        <NamedIndividual IRI="#Antipsychotics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medication"/>
+        <NamedIndividual IRI="#Anxiolytics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eating_disorder"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mood_disorder"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eating_disorder"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk_factors"/>
+        <NamedIndividual IRI="#Chronic_disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Therapy"/>
+        <NamedIndividual IRI="#Cognitive_and_behavioral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Psychotic_disorder"/>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mood_disorder"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lifestyle"/>
+        <NamedIndividual IRI="#Dietary_change"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk_factors"/>
+        <NamedIndividual IRI="#Drugs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sexuality_related_disorder"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk_factors"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eating_disorder"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Family_conflicts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Financial_problems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anxiety_disorder"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk_factors"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Legal_problems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lifestyle"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medication"/>
+        <NamedIndividual IRI="#Mood_stabilizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anxiety_disorder"/>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anxiety_disorder"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sexuality_related_disorder"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk_factors"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anxiety_disorder"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lifestyle"/>
+        <NamedIndividual IRI="#Physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anxiety_disorder"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Poverty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Problems_with_alcohol_or_drug_use"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Therapy"/>
+        <NamedIndividual IRI="#Psychoanalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lifestyle"/>
+        <NamedIndividual IRI="#Quit_smoking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Psychotic_disorder"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anxiety_disorder"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medication"/>
+        <NamedIndividual IRI="#Stimulants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Suicide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk_factors"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potential_Complication"/>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptoms"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personality_disorder"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Anxiolytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Cognitive_and_behavioral"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Antisocial"/>
+        <NamedIndividual IRI="#Problems_with_alcohol_or_drug_use"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Antisocial"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Antisocial"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Antisocial"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Antisocial"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#Physical_activity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Antipsychotics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Drugs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Borderline"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Borderline"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Borderline"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Borderline"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Borderline"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Chronic_disease"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Chronic_disease"/>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Chronic_disease"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Dependant"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Dependant"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Dependant"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Dependant"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Dependant"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Dependant"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Cognitive_and_behavioral"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Physical_activity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Quit_smoking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Chronic_disease"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Drugs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Drug_problems"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Drugs"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Drugs"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Drugs"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Drugs"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Environment"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Family_conflicts"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Family_conflicts"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Family_conflicts"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Family_conflicts"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Family_conflicts"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Financial_problems"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Financial_problems"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Financial_problems"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Financial_problems"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Anxiolytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Physical_activity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Quit_smoking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Genetic"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Histronic"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Histronic"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Inability_to_cope_with_daily_problems_or_stress"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Legal_problems"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Legal_problems"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Legal_problems"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Legal_problems"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Legal_problems"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Major_changes_in_eating_habits"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Medical_conditions"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Missed_work_or_school"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#New_factor"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+        <NamedIndividual IRI="#Chronic_disease"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+        <NamedIndividual IRI="#Anxiolytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+        <NamedIndividual IRI="#Drugs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Paranoid"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Paranoid"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Paranoid"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Phobias"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Phobias"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Poverty"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Poverty"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Poverty"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Problems_with_alcohol_or_drug_use"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Relationship_difficulties"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Confused_thinking_or_reduced_ability_to_concentrate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Feeling_sad_or_down"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Chronic_disease"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Drugs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Sex_drive_changes"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Significant_tiredness_low_energy_or_problems_sleeping"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+        <NamedIndividual IRI="#Anxiolytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+        <NamedIndividual IRI="#Environment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+        <NamedIndividual IRI="#Personality_trait"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Social_isolation"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Suicidal_thinking"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Suicide"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Dyspareunia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Obsessive-compulsive_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Paraphilia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aggravates"/>
+        <NamedIndividual IRI="#Traumatic_experience"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+        <NamedIndividual IRI="#Narcissistic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Agoraphobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Histronic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Social_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Unhappiness"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+        <NamedIndividual IRI="#Bulimia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+        <NamedIndividual IRI="#Exercice_bulimia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+        <NamedIndividual IRI="#Generalized_anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <NamedIndividual IRI="#Weaked_immune_system"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#extreme_mood_changes"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Anorexia_nervosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Anxious-avoidant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Binge_eating_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+        <NamedIndividual IRI="#Panic_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+        <NamedIndividual IRI="#Paranoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+        <NamedIndividual IRI="#Phobias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+        <NamedIndividual IRI="#Schizophrenia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+        <NamedIndividual IRI="#Antisocial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+        <NamedIndividual IRI="#Bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+        <NamedIndividual IRI="#Borderline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+        <NamedIndividual IRI="#Delusional_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+        <NamedIndividual IRI="#Dependant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <NamedIndividual IRI="#Excessive_anger,_hostility_or_violence"/>
+        <NamedIndividual IRI="#Post-traumatic_stress_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+        <NamedIndividual IRI="#Excessive_fears_or_worries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+        <NamedIndividual IRI="#Trouble_understanding_and_relating_to_situations_and_to_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+        <NamedIndividual IRI="#withdrawal_from_firends_and_activities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+        <NamedIndividual IRI="#Detachment_from_reality_(delusions),_paranoia_or_hallucinations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <NamedIndividual IRI="#Schizoid/Schizotypal"/>
+        <NamedIndividual IRI="#Genetic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aggravates"/>
+        <Class IRI="#Risk_factors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <Class IRI="#Mental_disorder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <Class IRI="#Mental_disorder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <Class IRI="#Mental_disorder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <Class IRI="#Potential_Complication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <Class IRI="#Symptoms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aggravates"/>
+        <Class IRI="#Mental_disorder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#can_be_partially_cured_by"/>
+        <Class IRI="#Management"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_the_symptom"/>
+        <Class IRI="#Symptoms"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_aggravated_by"/>
+        <Class IRI="#Risk_factors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_lead_by"/>
+        <Class IRI="#Mental_disorder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_symptom_of"/>
+        <Class IRI="#Mental_disorder"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal>https://www.mayoclinic.org/diseases-conditions/anorexia-nervosa/symptoms-causes/syc-20353591
+https://www.mayoclinic.org/diseases-conditions/binge-eating-disorder/symptoms-causes/syc-20353627
+https://www.mayoclinic.org/diseases-conditions/bulimia/symptoms-causes/syc-20353615
+https://www.healthline.com/health/exercise-bulimia-symptoms-treatments-and-more</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal>https://www.mayoclinic.org/diseases-conditions/bipolar-disorder/symptoms-causes/syc-20355955
+https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007
+https://www.mayoclinic.org/diseases-conditions/antisocial-personality-disorder/symptoms-causes/syc-20353928
+https://www.verywellmind.com/avoidant-personality-disorder-4172959#:~:text=%20The%20following%20is%20a%20list%20of%20common,%EF%BB%BF%209%20Self-isolation%2010%20Social%20inhibition%20More%20
+https://www.mayoclinic.org/diseases-conditions/borderline-personality-disorder/symptoms-causes/syc-20370237
+https://sante.journaldesfemmes.fr/fiches-sante-du-quotidien/2591920-dependance-affective-definition-cause-symptomes-vaincre/
+https://www.mountsinai.org/health-library/diseases-conditions/histrionic-personality-disorder
+https://www.mayoclinic.org/diseases-conditions/narcissistic-personality-disorder/symptoms-causes/syc-20366662
+https://www.mayoclinic.org/diseases-conditions/obsessive-compulsive-disorder/symptoms-causes/syc-20354432
+https://www.santescience.fr/symptomes/paranoia/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal>https://www.mayoclinic.org/diseases-conditions/schizotypal-personality-disorder/symptoms-causes/syc-20353919#:~:text=%20Schizotypal%20personality%20disorder%20typically%20includes%20five%20or,something%20that%20is%20actually%20harmless%20or...%20More%20
+https://www.verywellmind.com/what-causes-schizophrenia-2953136
+https://www.mayoclinic.org/diseases-conditions/schizophrenia/symptoms-causes/syc-20354443
+
+
+https://www.mayoclinic.org/diseases-conditions/painful-intercourse/symptoms-causes/syc-20375967
+https://www.primehealthchannel.com/paraphilia.html#Paraphilia_Symptoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal>sources url :
+
+
+https://www.mayoclinic.org/diseases-conditions/agoraphobia/symptoms-causes/syc-20355987
+https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803
+https://www.mayoclinic.org/diseases-conditions/obsessive-compulsive-disorder/symptoms-causes/syc-20354432
+https://www.mayoclinic.org/diseases-conditions/panic-attacks/symptoms-causes/syc-20376021
+https://www.mayoclinic.org/diseases-conditions/specific-phobias/symptoms-causes/syc-20355156
+https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/symptoms-causes/syc-20355967
+https://www.mayoclinic.org/diseases-conditions/social-anxiety-disorder/symptoms-causes/syc-20353561</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
