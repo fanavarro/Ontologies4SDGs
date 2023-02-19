@@ -1,17 +1,26 @@
 # Ontologies4SDGs
 
+Ontologies4SDGs: An open repository of didactic resources for teaching symbolic AI and ontology design: aligning docent objectives with the United Nations Sustainable Development Goals of the 2030 Agenda
+
+Objective: Teaching Symbolic Artificial Intelligence and Ontology Design to attain UN SDGs United Nations Sustainable Development Goals
+
 Innovative Teaching Project based on TeachSDGs.org (http://www.teachsdgs.org/) Initiative from United Nations Sustainable Development Goals, Agenda 2030.
+
 
 Academic year 2022-23
 
 Symbolic AI Participant Courses:
 
-* IA301 Institut Polytechnique Paris
+* IA301 Institut Polytechnique Paris 
+
+Course Material: https://github.com/NataliaDiaz/PostersAndPresentations/tree/master/teaching/Symbolic%20AI%20and%20Description%20Logics
 
 * Ingeniería del Conocimiento, UGR
 
+https://grados.ugr.es/ramas/ingenieria-arquitectura/grado-ingenieria-informatica/ingenieria-del-conocimiento-especialidad-computacion-y-sistemas-inteligentes
 
-Ontologies documentation and statistics:
+
+Ontologies database, documentation and statistics:
 
 https://docs.google.com/spreadsheets/d/1l40qB4IgEPt--yh2VMIO4_5W58jdicm_8SbLl9z9i50/edit?usp=sharing
 
