@@ -54,3 +54,21 @@ https://drive.google.com/file/d/1tbJcxIKvh9AGQMiCED7mZ05pCoE29QeI/view?usp=shari
 All presentations PDFs:
 https://github.com/NataliaDiaz/PostersAndPresentations/tree/master/teaching/Symbolic%20AI%20and%20Description%20Logics
 
+
+
+
+ADDITIONAL LEARNING RESOURCES
+
+- Glosario del estándar W3C https://www.w3.org/TR/rdf-mt/\#glossIntensional y el Tutorial Protégé http://mowl-power.cs.man.ac.uk/protegeowltutorial/resources/ProtegeOWLTutorialP4_v1_3.pdf.
+- MIRO – Minimum Information for Reporting of an Ontology guidelines: a community-validated set of recommendations on what should be reported about an ontology and its development, most importantly in the context of ontology description papers intended for publishing in scientific journals or conferences 
+ Matentzoglu et al. 2018.
+- Building OWL Ontologies with Protégé. CS431 –Cornell Univ. 2008 C. Lagoze www.cs.cornell.edu/courses/cs431/2008sp/Lectures/public/lecture-4-09-08.pdf.
+- Resources for Computational Linguists 2007 Description Logics - M. Regneri \& M. Wolska  www.cse.iitd.ernet.in/~kkb/DL-1.pdf.
+- Probabilistic Logic Programming Languages, F. Riguzzi, mcs.unife.it/~friguzzi/chapter2.pdf.
+- Common Pitfalls creating ontologies http://www.cs.man.ac.uk/~rector/papers/common_errors_ekaw_2004.pdf.
+- Building OWL Ontologies with Protégé CS431 – Cornell University, 2008 C. Lagoze www.cs.cornell.edu/courses/cs431/2008sp/Lectures/public/lecture-4-09-08.pdf.
+- Resources for Computational Linguists. Description Logics - M. Regneri \& M. Wolska  2007 www.cse.iitd.ernet.in/~kkb/DL-1.pdf.
+- An introduction to Ontology Engineering. M. Keet http://www.meteck.org/teaching/OEbook/.
+- Description Logic, Semantic Web and Ontology Development, S.Bragaglia, Fondamenti di Intelligenza Artificiale, Uni. of Bologna, Italy https://www.slideshare.net/StefanoBragaglia/ontology-development.
+
+
