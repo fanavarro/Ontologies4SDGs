@@ -59,7 +59,7 @@ https://github.com/NataliaDiaz/PostersAndPresentations/tree/master/teaching/Symb
 
 ADDITIONAL LEARNING RESOURCES
 
-- Glosario del estándar W3C https://www.w3.org/TR/rdf-mt/\#glossIntensional y el Tutorial Protégé  http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/.
+- Glosario del estándar W3C [https://www.w3.org/TR/rdf-mt/\#glossIntensional](https://www.w3.org/TR/rdf11-mt/) y el Tutorial Protégé  http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/.
 - MIRO – Minimum Information for Reporting of an Ontology guidelines: a community-validated set of recommendations on what should be reported about an ontology and its development, most importantly in the context of ontology description papers intended for publishing in scientific journals or conferences 
  Matentzoglu et al. 2018.
 - Building OWL Ontologies with Protégé CS431 – Cornell University, 2008 C. Lagoze www.cs.cornell.edu/courses/cs431/2008sp/Lectures/public/lecture-4-09-08.pdf.
