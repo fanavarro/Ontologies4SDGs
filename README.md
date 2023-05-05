@@ -79,11 +79,14 @@ If you use this repository please cite:
 
 ```
 @inproceedings{diaz2023ontologies4sdgs,
-   title={\textit{Ontologies4SDGs}: Un repositorio abierto de recursos didácticos para la enseñanza de inteligencia artificial simbólica alineando objetivos   docentes con los Objetivos de Desarrollo Sostenible de la Agenda 2030}, 
-   author={Díaz-Rodríguez, N and Pérez, I J and Gómez-Romero, J and Castro, J L and Bloch, I},
-   booktitle={Jornadas sobre la Enseñanza Universitaria de la Informática (JENUI 2023) Granada, Spain},
-   year={2023},
-   organization={\url{https://jenui2023.ugr.es/index.php}}
+  title={\textit{Ontologies4SDGs}: Un repositorio abierto de recursos
+didácticos para la enseñanza de inteligencia artificial
+simbólica alineando objetivos docentes con los Objetivos de
+Desarrollo Sostenible de la Agenda 2030},
+  author={Díaz-Rodríguez, Natalia and Pérez, Ignacio Javier and Gómez-Romero, Juan and Castro, Juan Luis and Bloch, Isabelle},
+  booktitle={Jornadas sobre la Enseñanza Universitaria de la Informática (JENUI 2023) Granada, Spain},
+  year={2023},
+  organization={\url{https://jenui2023.ugr.es/index.php}}
 }
 ```
 
