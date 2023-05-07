@@ -1,0 +1,5335 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/romaissa/ontologies/2020/9/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/romaissa/ontologies/2020/9/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/romaissa/ontologies/2020/9/untitled-ontology-9"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Abdominal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AloneSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Always"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ankle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AquaticSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Badminton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baseball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaseballBat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoneFracture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BowAndArrows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boxing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climbing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClimbingRoutes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrossAndPuck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cycling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Danse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DedicatedPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dislocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomainThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elbow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Everywhere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fencing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FishingKit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequently"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frisbee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gloves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GolfClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrowthProblems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gymnastics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeadTrauma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeavyImpact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helmet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hiking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hockey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HorseGear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HorseRiding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IceRink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IceSkates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IceSkating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impingement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowImpact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowerBack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowerBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MartialArts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiddleAdged"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModerateImpact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuscleAche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuscularLesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonAquaticSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Often"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OlderAdults"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plastron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Racket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Running"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sailing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shoulder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ski"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkiRuns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkiSuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skiing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sometimes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificSportswear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportsGround"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sprain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StretchOfWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfBoard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swimming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SwimmingPool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swimsuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sword"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TableTennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeamSport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tendonitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thigh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ultimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UpperBack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UpperBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VeryYoung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volleyball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterPolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeightTraining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yoga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YoungAdults"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1vs1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biceps/Triceps"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canBePractised"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canCause"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contraindicatedIf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasImpact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAppropriateForAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPractisedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needsEquipment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesBodyPart"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#Location"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <Class IRI="#BodyPart"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sport"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#HeavyImpact"/>
+                <Class IRI="#LowImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Abdominal"/>
+        <Class IRI="#UpperBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeCategory"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AloneSport"/>
+        <Class IRI="#SportType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Always"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ankle"/>
+        <Class IRI="#Foot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AquaticSport"/>
+        <Class IRI="#SportType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Impingement"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Wrist"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Neck"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Arm"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="#BoneFracture"/>
+                    <Class IRI="#Sprain"/>
+                    <Class IRI="#Tendonitis"/>
+                </ObjectUnionOf>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <Class IRI="#UpperBody"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#LowImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gym"/>
+                <Class IRI="#Outside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#BowAndArrows"/>
+                <Class IRI="#Gloves"/>
+                <Class IRI="#Plastron"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Neck"/>
+                <Class IRI="#Shoulder"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arm"/>
+        <Class IRI="#UpperBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#MuscleAche"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#Glute"/>
+                        <Class IRI="#Leg"/>
+                        <Class IRI="#LowerBack"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canCause"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#Sprain"/>
+                        <ObjectAllValuesFrom>
+                            <ObjectProperty IRI="#isLocatedIn"/>
+                            <ObjectUnionOf>
+                                <Class IRI="#Ankle"/>
+                                <Class IRI="#Elbow"/>
+                                <Class IRI="#Knee"/>
+                                <Class IRI="#Shoulder"/>
+                                <Class IRI="#Wrist"/>
+                            </ObjectUnionOf>
+                        </ObjectAllValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Ankle"/>
+                        <Class IRI="#Elbow"/>
+                        <Class IRI="#Knee"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#Wrist"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#1vs1"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Racket"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ball"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#Knee"/>
+                            <Class IRI="#Shoulder"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Finger"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#Knee"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ball"/>
+                <Class IRI="#BaseballBat"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaseballBat"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Finger"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#HeavyImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isAppropriateForAge"/>
+            <ObjectUnionOf>
+                <Class IRI="#MiddleAdged"/>
+                <Class IRI="#VeryYoung"/>
+                <Class IRI="#YoungAdults"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Ball"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boat"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyPart"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoneFracture"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BowAndArrows"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#HeadTrauma"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Head"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <Class IRI="#Injury"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#HeavyImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#1vs1"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isAppropriateForAge"/>
+            <ObjectUnionOf>
+                <Class IRI="#MiddleAdged"/>
+                <Class IRI="#YoungAdults"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Gloves"/>
+                <Class IRI="#Helmet"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <Class IRI="#BodyPart"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brain"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calf"/>
+        <Class IRI="#Leg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <Class IRI="#Injury"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Always"/>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#HeavyImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#ClimbingRoutes"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Harness"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climbing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <Class IRI="#BodyPart"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClimbingRoutes"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contusion"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrossAndPuck"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Leg"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Hip"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gym"/>
+                <Class IRI="#Outside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Bike"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycling"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#BoneFracture"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Calf"/>
+                            <Class IRI="#LowerBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Impingement"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Foot"/>
+                            <Class IRI="#Hip"/>
+                            <Class IRI="#Leg"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Ankle"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Hip"/>
+                            <Class IRI="#Toe"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Tendonitis"/>
+                <ObjectIntersectionOf>
+                    <ObjectUnionOf>
+                        <Class IRI="#MuscleAche"/>
+                        <Class IRI="#Sprain"/>
+                    </ObjectUnionOf>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Foot"/>
+                            <Class IRI="#Hip"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gym"/>
+                <Class IRI="#Outside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danse"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#LowerBody"/>
+                <Class IRI="#UpperBody"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DedicatedPlace"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dislocation"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elbow"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Everywhere"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#LowerBack"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#1vs1"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gym"/>
+                <Class IRI="#Outside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Gloves"/>
+                <Class IRI="#Helmet"/>
+                <Class IRI="#Plastron"/>
+                <Class IRI="#Sword"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fencing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Calf"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Knee"/>
+                <Class IRI="#Shoulder"/>
+                <Class IRI="#Thigh"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finger"/>
+        <Class IRI="#Hand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FishingKit"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foot"/>
+        <Class IRI="#Leg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Hip"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Leg"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#LowerBody"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Ball"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Head"/>
+                <Class IRI="#LowerBody"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequently"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frisbee"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gloves"/>
+        <Class IRI="#SpecificSportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glute"/>
+        <Class IRI="#LowerBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Tendonitis"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Elbow"/>
+                        <Class IRI="#LowerBack"/>
+                        <Class IRI="#UpperBack"/>
+                        <Class IRI="#Wrist"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Tendonitis"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#LowerBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#LowImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#GolfClub"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Head"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#Shoulder"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GolfClub"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrowthProblems"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gym"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#BoneFracture"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Head"/>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#Neck"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Shoulder"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GrowthProblems"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectIntersectionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Impingement"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Knee"/>
+                            <Class IRI="#LowerBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Ankle"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <Class IRI="#Sprain"/>
+                    <Class IRI="#Tendonitis"/>
+                </ObjectUnionOf>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#UpperBody"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#1vs1"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gym"/>
+                <Class IRI="#Outside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gymnastics"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#LowerBody"/>
+                <Class IRI="#UpperBody"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hand"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Finger"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <Class IRI="#Frequently"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Ball"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harness"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Head"/>
+        <Class IRI="#UpperBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeadTrauma"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeavyImpact"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helmet"/>
+        <Class IRI="#SpecificSportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Glute"/>
+                            <Class IRI="#Leg"/>
+                        </ObjectUnionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectUnionOf>
+                        <Class IRI="#Sprain"/>
+                        <Class IRI="#Tendonitis"/>
+                    </ObjectUnionOf>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <Class IRI="#LowerBody"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#Outside"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hip"/>
+        <Class IRI="#LowerBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Ankle"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#HeavyImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#IceRink"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Gloves"/>
+                <Class IRI="#Helmet"/>
+                <Class IRI="#IceSkates"/>
+                <Class IRI="#Plastron"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hockey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <Class IRI="#BodyPart"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horse"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseGear"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#BoneFracture"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Leg"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Ankle"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#LowerBack"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gym"/>
+                <Class IRI="#Outside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Helmet"/>
+                <Class IRI="#Horse"/>
+                <Class IRI="#HorseGear"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorseRiding"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Calf"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Knee"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#Thigh"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceRink"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkates"/>
+        <Class IRI="#SpecificSportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <Class IRI="#BoneFracture"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Hip"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <ObjectUnionOf>
+                        <Class IRI="#Sprain"/>
+                        <Class IRI="#Tendonitis"/>
+                    </ObjectUnionOf>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Hip"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <Class IRI="#LowerBody"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#IceRink"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IceSkating"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+                <Class IRI="#Biceps/Triceps"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impact"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impingement"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injury"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injury"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isLocatedIn"/>
+            <Class IRI="#BodyPart"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knee"/>
+        <Class IRI="#Leg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leg"/>
+        <Class IRI="#LowerBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowImpact"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowerBack"/>
+        <Class IRI="#LowerBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowerBody"/>
+        <Class IRI="#BodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <Class IRI="#BoneFracture"/>
+                <Class IRI="#Contusion"/>
+                <Class IRI="#Dislocation"/>
+                <Class IRI="#HeadTrauma"/>
+                <Class IRI="#Sprain"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Sprain"/>
+                <Class IRI="#Tendonitis"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#1vs1"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#Gym"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MartialArts"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Head"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiddleAdged"/>
+        <Class IRI="#AgeCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModerateImpact"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuscleAche"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuscularLesion"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neck"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonAquaticSport"/>
+        <Class IRI="#SportType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Often"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OlderAdults"/>
+        <Class IRI="#AgeCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outside"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plastron"/>
+        <Class IRI="#SpecificSportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Racket"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Hand"/>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#UpperBack"/>
+                            <Class IRI="#Biceps/Triceps"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#UpperBack"/>
+                            <Class IRI="#Wrist"/>
+                            <Class IRI="#Biceps/Triceps"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#Biceps/Triceps"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <Class IRI="#UpperBody"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#HeavyImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#StretchOfWater"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Boat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rowing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Arm"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#Thigh"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#Contusion"/>
+                        <ObjectAllValuesFrom>
+                            <ObjectProperty IRI="#isLocatedIn"/>
+                            <ObjectUnionOf>
+                                <Class IRI="#LowerBody"/>
+                                <Class IRI="#UpperBody"/>
+                            </ObjectUnionOf>
+                        </ObjectAllValuesFrom>
+                    </ObjectIntersectionOf>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#HeadTrauma"/>
+                        <ObjectAllValuesFrom>
+                            <ObjectProperty IRI="#isLocatedIn"/>
+                            <Class IRI="#Head"/>
+                        </ObjectAllValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectUnionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <Class IRI="#Injury"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#HeavyImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isAppropriateForAge"/>
+            <ObjectUnionOf>
+                <Class IRI="#MiddleAdged"/>
+                <Class IRI="#YoungAdults"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Ball"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <Class IRI="#BodyPart"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Leg"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Leg"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Ankle"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Thigh"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#HeavyImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#Everywhere"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Running"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#Shoulder"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#BoneFracture"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Hand"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#Head"/>
+                            <Class IRI="#Leg"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Hand"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#HeadTrauma"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Head"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Impingement"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Knee"/>
+                            <Class IRI="#LowerBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <Class IRI="#Injury"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#HeavyImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#AquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#StretchOfWater"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Boat"/>
+                <Class IRI="#Swimsuit"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sailing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#UpperBody"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shoulder"/>
+        <Class IRI="#UpperBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ski"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkiRuns"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkiSuit"/>
+        <Class IRI="#SpecificSportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <Class IRI="#BoneFracture"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Leg"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Knee"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Knee"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="#Sprain"/>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#MuscularLesion"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="#isLocatedIn"/>
+                            <ObjectUnionOf>
+                                <Class IRI="#Leg"/>
+                                <Class IRI="#LowerBack"/>
+                                <Class IRI="#UpperBack"/>
+                            </ObjectUnionOf>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectUnionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Always"/>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SkiRuns"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Gloves"/>
+                <Class IRI="#Helmet"/>
+                <Class IRI="#Ski"/>
+                <Class IRI="#SkiSuit"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skiing"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Calf"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Knee"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#Thigh"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sometimes"/>
+        <Class IRI="#Frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificSportswear"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <Class IRI="#Frequency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <Class IRI="#Injury"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <Class IRI="#Injury"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <Class IRI="#SportType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppropriateForAge"/>
+            <Class IRI="#AgeCategory"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Equipment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportType"/>
+        <Class IRI="#DomainThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportsGround"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sprain"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#Knee"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Sprain"/>
+                <Class IRI="#Tendonitis"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#HeavyImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Racket"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squash"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#Neck"/>
+                <Class IRI="#Shoulder"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StretchOfWater"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#BoneFracture"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#Thigh"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectIntersectionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#AquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#StretchOfWater"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#SurfBoard"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#LowerBody"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfBoard"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Always"/>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#AquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#StretchOfWater"/>
+                <Class IRI="#SwimmingPool"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Swimsuit"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#LowerBody"/>
+                <Class IRI="#UpperBody"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SwimmingPool"/>
+        <Class IRI="#DedicatedPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimsuit"/>
+        <Class IRI="#SpecificSportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sword"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Impingement"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Calf"/>
+                            <Class IRI="#Knee"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Tendonitis"/>
+                <ObjectIntersectionOf>
+                    <ObjectUnionOf>
+                        <Class IRI="#MuscleAche"/>
+                        <Class IRI="#Sprain"/>
+                    </ObjectUnionOf>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#Hand"/>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#Shoulder"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#1vs1"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Gym"/>
+                <Class IRI="#Outside"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ball"/>
+                <Class IRI="#Racket"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TableTennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Head"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#Shoulder"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeamSport"/>
+        <Class IRI="#SportType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tendonitis"/>
+        <Class IRI="#Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Shoulder"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#Leg"/>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Arm"/>
+                            <Class IRI="#Leg"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#HeavyImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ball"/>
+                <Class IRI="#Racket"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tennis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <Class IRI="#BodyPart"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thigh"/>
+        <Class IRI="#Leg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toe"/>
+        <Class IRI="#Foot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#UpperBack"/>
+                            <Class IRI="#Biceps/Triceps"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Finger"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Frisbee"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultimate"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UpperBack"/>
+        <Class IRI="#UpperBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UpperBody"/>
+        <Class IRI="#BodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VeryYoung"/>
+        <Class IRI="#AgeCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Shoulder"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Thigh"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Finger"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Ankle"/>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#Finger"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBody"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#ModerateImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#NonAquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SportsGround"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Ball"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volleyball"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Ankle"/>
+                <Class IRI="#Arm"/>
+                <Class IRI="#Calf"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#Knee"/>
+                <Class IRI="#Shoulder"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Tendonitis"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Ankle"/>
+                        <Class IRI="#Knee"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Tendonitis"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <Class IRI="#Leg"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <Class IRI="#Always"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#LowImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#Everywhere"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Abdominal"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Contusion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#Shoulder"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBack"/>
+                            <Class IRI="#UpperBack"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#Biceps/Triceps"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Knee"/>
+                            <Class IRI="#Wrist"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#Elbow"/>
+                            <Class IRI="#Knee"/>
+                            <Class IRI="#Shoulder"/>
+                            <Class IRI="#Biceps/Triceps"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contraindicatedIf"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Injury"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#isLocatedIn"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#Abdominal"/>
+                        <Class IRI="#Arm"/>
+                        <Class IRI="#LowerBack"/>
+                        <Class IRI="#Shoulder"/>
+                        <Class IRI="#UpperBack"/>
+                    </ObjectUnionOf>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#HeavyImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AquaticSport"/>
+                <Class IRI="#TeamSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#SwimmingPool"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Ball"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterPolo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Leg"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#UpperBody"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Dislocation"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Sprain"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Tendonitis"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Always"/>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <Class IRI="#HeavyImpact"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isAppropriateForAge"/>
+            <ObjectUnionOf>
+                <Class IRI="#MiddleAdged"/>
+                <Class IRI="#YoungAdults"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#Gym"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightTraining"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#needsEquipment"/>
+            <Class IRI="#Weights"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weights"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrist"/>
+        <Class IRI="#Hand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCause"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscleAche"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MuscularLesion"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#isLocatedIn"/>
+                        <ObjectUnionOf>
+                            <Class IRI="#LowerBody"/>
+                            <Class IRI="#UpperBody"/>
+                        </ObjectUnionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#canBePractised"/>
+            <ObjectUnionOf>
+                <Class IRI="#Always"/>
+                <Class IRI="#Frequently"/>
+                <Class IRI="#Often"/>
+                <Class IRI="#Sometimes"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasImpact"/>
+            <ObjectUnionOf>
+                <Class IRI="#LowImpact"/>
+                <Class IRI="#ModerateImpact"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#AloneSport"/>
+                <Class IRI="#NonAquaticSport"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPractisedIn"/>
+            <Class IRI="#Everywhere"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#usesBodyPart"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Calf"/>
+                <Class IRI="#Glute"/>
+                <Class IRI="#Hip"/>
+                <Class IRI="#LowerBack"/>
+                <Class IRI="#Shoulder"/>
+                <Class IRI="#Thigh"/>
+                <Class IRI="#UpperBack"/>
+            </ObjectIntersectionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YoungAdults"/>
+        <Class IRI="#AgeCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1vs1"/>
+        <Class IRI="#SportType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biceps/Triceps"/>
+        <Class IRI="#Arm"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AloneSport"/>
+        <Class IRI="#TeamSport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AloneSport"/>
+        <Class IRI="#1vs1"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AquaticSport"/>
+        <Class IRI="#NonAquaticSport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Archery"/>
+        <Class IRI="#Badminton"/>
+        <Class IRI="#Baseball"/>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Boxing"/>
+        <Class IRI="#Climbing"/>
+        <Class IRI="#Cycling"/>
+        <Class IRI="#Danse"/>
+        <Class IRI="#Fencing"/>
+        <Class IRI="#Football"/>
+        <Class IRI="#Golf"/>
+        <Class IRI="#Gymnastics"/>
+        <Class IRI="#Handball"/>
+        <Class IRI="#Hiking"/>
+        <Class IRI="#Hockey"/>
+        <Class IRI="#HorseRiding"/>
+        <Class IRI="#IceSkating"/>
+        <Class IRI="#MartialArts"/>
+        <Class IRI="#Rowing"/>
+        <Class IRI="#Rugby"/>
+        <Class IRI="#Running"/>
+        <Class IRI="#Sailing"/>
+        <Class IRI="#Skiing"/>
+        <Class IRI="#Squash"/>
+        <Class IRI="#Surf"/>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#TableTennis"/>
+        <Class IRI="#Tennis"/>
+        <Class IRI="#Ultimate"/>
+        <Class IRI="#Volleyball"/>
+        <Class IRI="#Walking"/>
+        <Class IRI="#WaterPolo"/>
+        <Class IRI="#WeightTraining"/>
+        <Class IRI="#Yoga"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DedicatedPlace"/>
+        <Class IRI="#Everywhere"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TeamSport"/>
+        <Class IRI="#1vs1"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#canBePractised"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#canCause"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contraindicatedIf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasImpact"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAppropriateForAge"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPractisedIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#needsEquipment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usesBodyPart"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#canBePractised"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#canCause"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#contraindicatedIf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasImpact"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isAppropriateForAge"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPractisedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#needsEquipment"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#usesBodyPart"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#canBePractised"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#canCause"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#contraindicatedIf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasImpact"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isAppropriateForAge"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isPractisedIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#needsEquipment"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#usesBodyPart"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canBePractised"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canCause"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contraindicatedIf"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasImpact"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAppropriateForAge"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#Injury"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPractisedIn"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#needsEquipment"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesBodyPart"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Sport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canBePractised"/>
+        <Class IRI="#Frequency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canCause"/>
+        <Class IRI="#Injury"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contraindicatedIf"/>
+        <Class IRI="#Injury"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasImpact"/>
+        <Class IRI="#Impact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#SportType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAppropriateForAge"/>
+        <Class IRI="#AgeCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocatedIn"/>
+        <Class IRI="#BodyPart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPractisedIn"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#needsEquipment"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesBodyPart"/>
+        <Class IRI="#BodyPart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
