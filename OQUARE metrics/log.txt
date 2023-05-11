@@ -1,0 +1,1121 @@
+ (8442747339914802392) INFO - um.oquare.ws.model.SharedLogger - Logger started at 2023-05-11 10:34:00 - Session ID: 8442747339914802392
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/all_about_cocktails.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '1'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 4.232 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/amazonian_ecosystem.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '2'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '2': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology23475062989516571001
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=8:column=17] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology23475062989516571001; lineNumber: 69; columnNumber: 90; El nombre de atributo "data-pjax-transient" asociado a un tipo de elemento "meta" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 7, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 7, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 7, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 7, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 7 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 7)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/avoiding_food_waste_ontology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '3'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '3': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology36101019898343387373
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology36101019898343387373; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/Bejaoui%20Keretchashvili%20ElKhallioui%20ontology_project.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '4'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 5.904 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/car_ontology_3.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '5'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '5': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology53220367779859587488
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology53220367779859587488; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/causes_symtoms_family_doctor_decision_support_system.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '6'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 1.821 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/coronavirus.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '7'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '7': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology75201155757041346437
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=8:column=17] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology75201155757041346437; lineNumber: 69; columnNumber: 90; El nombre de atributo "data-pjax-transient" asociado a un tipo de elemento "meta" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 7, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 7, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 7, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 7, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 7 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 7)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/coronavirus_gannem.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '8'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '8': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology84906059183680957586
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology84906059183680957586; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/COVIDPolluter.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '9'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '9': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology96764017118037456563
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology96764017118037456563; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/end_waste_and_polution_ontology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '10'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '10': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology101885213649754731514
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology101885213649754731514; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/endangered_species_amazonian_ecosystem.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '11'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '11': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology115905580180440056002
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology115905580180440056002; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/Energy_Ontology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '12'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '12': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology128001821875268143920
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology128001821875268143920; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/explaining_adverse_reactions_blood_transfusion.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '13'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '13': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology138503161955737186845
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology138503161955737186845; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/fruits_and_vegetables.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '14'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '14': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology143799794582385860785
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology143799794582385860785; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/futureCareerRecommendation.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '15'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '15': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology154142890602720853011
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology154142890602720853011; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/Goal11_sustainableCitiesAndUrbanPlanning.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '16'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '16': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology162689324042933718437
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology162689324042933718437; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/Goal2_EndHungerWithSustainableGardening.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '17'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '17': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology173269326904833191167
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology173269326904833191167; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez//ontologies/GrandamaTricksAsEssentialRemedies.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '18'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '18': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology185392273984469888435
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology185392273984469888435; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/machine_learning_methods_explained.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '19'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '19': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology195718129657344901283
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology195718129657344901283; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/mental_health_ontology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '20'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 0.647 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/recipe2.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '21'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '21': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology218891649080473266709
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology218891649080473266709; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/responsible_fishing_ontology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '22'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '22': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology223518926828105325399
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology223518926828105325399; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/Solene_Lancrenon-AND-Aurelien_Chambon-AND-Jules_Carpentier.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '23'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 0.766 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/SportsAndHealth_romaissa.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '24'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 1.929 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/sustainable_cities.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '25'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 1.644 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/sustainable_holiday_destination_choice_ontology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '26'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '26': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology267983665394134249362
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology267983665394134249362; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/sustainableTransportationOntology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '27'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '27': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology27907627418453571470
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology27907627418453571470; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/TreePlannerOntology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '28'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 5.818 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/UrbanTransportOntology.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '29'
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution took 1.123 secs
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Downloading ontology  https://www.ugr.es/~ijperez/ontologies/WaterBody-Ontology-IA301.owl
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Executing OQuaRE on ontology '30'
+(8442747339914802392) ERROR - um.oquare.ws.model.RunOquareWS - Ontology '30': Problem parsing file:/home/swit/apache-tomcat-8.5.35/temp/ontology305670485989811917133
+Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+The following parsers were tried:
+1) RDFXMLParser
+2) OWLXMLParser
+3) OWLFunctionalSyntaxOWLParser
+4) TurtleOntologyParser
+5) OWLOBOParser
+6) KRSS2OWLParser
+7) ManchesterOWLSyntaxOntologyParser
+
+
+Detailed logs:
+--------------------------------------------------------------------------------
+Parser: RDFXMLParser
+org.semanticweb.owlapi.rdf.syntax.RDFParserException: [line=9:column=124] Expecting rdf:RDF element.
+
+--------------------------------------------------------------------------------
+Parser: OWLXMLParser
+org.xml.sax.SAXParseException; systemId: file:/home/swit/apache-tomcat-8.5.35/temp/ontology305670485989811917133; lineNumber: 16; columnNumber: 76; El nombre de atributo "crossorigin" asociado a un tipo de elemento "link" debe ir seguido del carácter ' = '.
+
+--------------------------------------------------------------------------------
+Parser: OWLFunctionalSyntaxOWLParser
+Encountered " <ERROR> "< "" at line 8, column 1.
+Was expecting:
+    "Ontology" ...
+     (Line 0)
+
+--------------------------------------------------------------------------------
+Parser: TurtleOntologyParser
+uk.ac.manchester.cs.owl.owlapi.turtle.parser.ParseException: Encountered "" at line 8, column 1.
+Was expecting one of:
+    
+
+--------------------------------------------------------------------------------
+Parser: OWLOBOParser
+org.coode.owlapi.obo.parser.TokenMgrError: Lexical error at line 8, column 16.  Encountered: "\n" (10), after : ""
+
+--------------------------------------------------------------------------------
+Parser: KRSS2OWLParser
+de.uulm.ecs.ai.owlapi.krssparser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 8, column 1.
+Was expecting:
+    <EOF> 
+    
+
+--------------------------------------------------------------------------------
+Parser: ManchesterOWLSyntaxOntologyParser
+Encountered '<!DOCTYPE html>' at line 8 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 8)
+
+
+(8442747339914802392) INFO - um.oquare.ws.service.RunOquareOverCorpusService - Execution finished. It took 29.218 secs to process 30 ontologies. Sending data to client
